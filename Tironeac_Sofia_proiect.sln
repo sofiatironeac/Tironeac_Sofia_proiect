@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30523.141
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tironeac_Sofia_proiect", "Tironeac_Sofia_proiect.csproj", "{16E199CE-5E51-4687-BB6B-07986A0D573A}"
+	ProjectSection(ProjectDependencies) = postProject
+		{188696D4-FFDE-4C1F-95E1-99DE77B49237} = {188696D4-FFDE-4C1F-95E1-99DE77B49237}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AirlineModel", "..\AirlineModel\AirlineModel.csproj", "{188696D4-FFDE-4C1F-95E1-99DE77B49237}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{16E199CE-5E51-4687-BB6B-07986A0D573A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16E199CE-5E51-4687-BB6B-07986A0D573A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16E199CE-5E51-4687-BB6B-07986A0D573A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16E199CE-5E51-4687-BB6B-07986A0D573A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{188696D4-FFDE-4C1F-95E1-99DE77B49237}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{188696D4-FFDE-4C1F-95E1-99DE77B49237}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{188696D4-FFDE-4C1F-95E1-99DE77B49237}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{188696D4-FFDE-4C1F-95E1-99DE77B49237}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C505DD54-1BC6-4D65-A8A7-BD3DBA313660}
+	EndGlobalSection
+EndGlobal
